@@ -38,29 +38,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <h2>Bun venit!</h2>
       <p>Conectează-te la contul tău PlanMeal</p>
     </div>
-
     <?php if ($error): ?>
       <div class="alert alert-error"><?= htmlspecialchars($error) ?></div>
     <?php endif; ?>
-
     <form method="POST" action="login.php" class="auth-form">
       <div class="form-group">
         <label for="email">Adresă email</label>
-        <input type="email" id="email" name="email" placeholder="email@exemplu.com"
-               value="<?= htmlspecialchars($_POST['email'] ?? '') ?>" required>
+        <input type="email" id="email" name="email" placeholder="email@exemplu.com" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>" required>
       </div>
-
       <div class="form-group">
         <label for="parola">Parolă</label>
         <input type="password" id="parola" name="parola" placeholder="Parola ta" required>
       </div>
-
       <button type="submit" class="btn-primary btn-full">Conectează-te</button>
     </form>
-
-    <div class="auth-footer">
-      Nu ai cont? <a href="register.php">Înregistrează-te gratuit</a>
-    </div>
+    <div class="auth-footer">Nu ai cont? <a href="register.php">Înregistrează-te gratuit</a></div>
   </div>
 </div>
 
