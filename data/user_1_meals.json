@@ -1,0 +1,74 @@
+{
+    "user_id": 1,
+    "user_name": "Catalin Salcoci",
+    "weekly_plan": {
+        "Luni": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        },
+        "Marti": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        },
+        "Miercuri": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        },
+        "Joi": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        },
+        "Vineri": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        },
+        "Sambata": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        },
+        "Duminica": {
+            "mic_dejun": "",
+            "pranz": "",
+            "cina": ""
+        }
+    },
+    "shopping_list": [],
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Omletă cu brânză",
+            "ingredients": [
+                "ouă",
+                "brânză",
+                "sare",
+                "piper"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Salată Caesar",
+            "ingredients": [
+                "salată",
+                "pui",
+                "parmezan",
+                "sos Caesar"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Paste carbonara",
+            "ingredients": [
+                "paste",
+                "bacon",
+                "ouă",
+                "parmezan"
+            ]
+        }
+    ]
+}

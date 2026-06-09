@@ -1,0 +1,26 @@
+{
+    "Piept de pui cu quinoa": {
+        "ingrediente": ["piept de pui", "quinoa", "broccoli", "usturoi", "ulei de măsline"]
+    },
+    "Salată cu avocado": {
+        "ingrediente": ["avocado", "salată verde", "roșii cherry", "castraveți", "lămâie", "ulei de măsline"]
+    },
+    "Somon la cuptor": {
+        "ingrediente": ["somon", "lămâie", "mărar", "cartofi dulci", "sparanghel"]
+    },
+    "Buddha bowl": {
+        "ingrediente": ["orez brun", "năut", "avocado", "varză roșie", "morcov", "susan", "sos de soia"]
+    },
+    "Omletă cu brânză": {
+        "ingrediente": ["ouă", "brânză", "sare", "piper", "unt"]
+    },
+    "Paste carbonara": {
+        "ingrediente": ["paste", "bacon", "ouă", "parmezan", "piper negru"]
+    },
+    "Ciorbă de pui": {
+        "ingrediente": ["pui", "morcov", "țelină", "pătrunjel", "ceapă", "smântână"]
+    },
+    "Piept de pui cu broccoli": {
+        "ingrediente": ["piept de pui", "broccoli", "usturoi", "sare", "piper", "ulei"]
+    }
+}

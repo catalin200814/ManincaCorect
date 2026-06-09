@@ -2,11 +2,8 @@
 define('USERS_FILE', __DIR__ . '/../data/users.json');
 
 function getUsers(): array {
-    if (!file_exists(USERS_FILE)) {
-        return [];
-    }
-    $content = file_get_contents(USERS_FILE);
-    return json_decode($content, true) ?? [];
+    if (!file_exists(USERS_FILE)) return [];
+    return json_decode(file_get_contents(USERS_FILE), true) ?? [];
 }
 
 function saveUsers(array $users): void {
@@ -32,7 +29,6 @@ function registerUser(string $nume, string $email, string $parola, string $confi
     }
 
     $users = getUsers();
-
     foreach ($users as $user) {
         if ($user['email'] === $email) {
             return ['success' => false, 'message' => 'Această adresă de email este deja înregistrată.'];
@@ -49,7 +45,6 @@ function registerUser(string $nume, string $email, string $parola, string $confi
 
     $users[] = $newUser;
     saveUsers($users);
-
     return ['success' => true, 'message' => 'Cont creat cu succes!'];
 }
 
@@ -62,7 +57,6 @@ function loginUser(string $email, string $parola): array {
     }
 
     $users = getUsers();
-
     foreach ($users as $user) {
         if ($user['email'] === $email) {
             if (password_verify($parola, $user['parola'])) {
@@ -73,7 +67,6 @@ function loginUser(string $email, string $parola): array {
             }
         }
     }
-
     return ['success' => false, 'message' => 'Nu există niciun cont cu această adresă de email.'];
 }
 ?>

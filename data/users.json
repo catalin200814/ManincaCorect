@@ -12,5 +12,12 @@
         "email": "corneliusalcoci13@gmail.com",
         "parola": "$2y$10$L\/KcafY7ObKWyCK46.FmgeITMvkTI98ZqYh3vnPDpD5rdpzpPybwK",
         "created_at": "2026-06-03 08:24:50"
+    },
+    {
+        "id": 3,
+        "nume": "Popov Daniel",
+        "email": "popov02@gmail.com",
+        "parola": "$2y$10$8PeUbY5lyr7Xm.mQxkexz.nHslJOtyZTTmkmPijFXjlpOT2scQoya",
+        "created_at": "2026-06-09 09:14:58"
     }
 ]
